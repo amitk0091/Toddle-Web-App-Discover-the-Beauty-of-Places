@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans:wght@300&family=Noto+Sans+Symbols:wght@400;700&family=Quicksand:wght@600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Symbols', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: url("images/postsbackdark.png") no-repeat center center;
+    background-size: cover;
+}
+#createbox{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    padding: 0px 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 10px;
+}
+#head{
+    position: relative;
+    margin: 10px 20px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#createbox h1{
+    font-size: 20px;
+}
+#createbox p{
+    padding: 0px 10px;
+}
+#createbox img{
+  width: 15px;
+  height: 15px;
+}
+#createbox input{
+    width: 90%;
+    padding: 5px;
+    margin: 0px 0px 10px 10px;
+    border: 1px solid #a6a7a7;
+    border-radius: 8px;
+    font-size: 14px;
+}
+label{
+    font-family: 'Noto Sans Symbols', sans-serif;
+    padding: 0px 10px;
+}
+
+#btn1{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin: 0px 30px 20px 0px;
+    padding: 7px;
+    background-color: #ae273f;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#img{
+         
+}

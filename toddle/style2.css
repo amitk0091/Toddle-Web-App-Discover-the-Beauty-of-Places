@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans:wght@300&family=Noto+Sans+Symbols:wght@400;700&family=Quicksand:wght@600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Symbols', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: url("images/back.png") no-repeat center center;
+    background-size: cover;
+}
+#createbox{
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    /* padding: 15px; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 10px;
+}
+#head{
+    position: relative;
+    margin: 10px 20px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#createbox h1{
+    font-size: 20px;
+}
+#createbox img{
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+#createbox input{
+    width: 90%;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #a6a7a7;
+    border-radius: 8px;
+    font-size: 14px;
+}
+#item3{
+    padding: 0px 10px;
+}
+#item4{
+    color: black;
+    font-family: 'Noto Sans Symbols', sans-serif;
+    padding: 10px;
+}
+#selectcolor{
+    padding: 0px 10px;
+    display: flex;
+}
+#color1{
+    margin: 0px 20px 20px 0px;
+    width: 30px;
+    height: 30px;
+    background-color: #a6f1f9;
+    border-radius: 50%;
+    cursor: pointer;
+} 
+#color2{
+    margin: 0px 20px 20px 0px;
+    width: 30px;
+    height: 30px;
+    background-color: #c4c4fc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#color3{
+    margin: 0px 20px 20px 0px;
+    width: 30px;
+    height: 30px;
+    background-color: #feafc0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#color4{
+    margin: 0px 20px 20px 0px;
+    width: 30px;
+    height: 30px;
+    background-color: #fecc67;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#btn1{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin: 0px 30px 20px 0px;
+    padding: 7px;
+    background-color: #ae273f;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+#color4:focus{
+    border: 2px solid black;
+}
+#color3:focus{
+    border: 2px solid black;
+}
+#color2:focus{
+    border: 2px solid black;
+}
+#color1:focus{
+    border: 2px solid black;
+}
